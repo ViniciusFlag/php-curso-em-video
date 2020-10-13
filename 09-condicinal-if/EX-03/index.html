@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../../_css/estilo.css"/>
+  <meta charset="UTF-8"/>
+  <title>Curso de PHP - CursoemVideo.com</title>
+  <style>
+    input {
+      margin: 10px 0;
+    }
+    #btn {
+      padding: 10px;
+      background: rgb(18, 18, 145);
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+    }
+
+    #btn:hover {
+      background: rgb(19, 19, 163);
+    }
+
+  </style>
+</head>
+<body>
+<div>
+  <!-- entre 0 e 5 reprovado // do 5 ao 7 recuperação  // 7 ao 10 aprovado-->
+    <form method="GET" action="index.php">
+      Nota 01: <input type="number" name="n1"><br>
+      Nota 02: <input type="number" name="n2"><br>
+      <input type="submit" value="Calcular média" id="btn">
+    </form>
+</div>
+</body>
+</html>
+  
